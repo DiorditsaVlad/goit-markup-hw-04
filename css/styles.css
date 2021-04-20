@@ -197,7 +197,7 @@ body{
     content:"";
     background: var(--icon-bg-cl) ;
     border-radius: 4px;
-    background-image: url(../images/antenna.svg);
+    background-image: url(../images/icon.svg/antenna.svg);
     background-position: center;
     background-repeat: no-repeat;
     display: block;
@@ -209,7 +209,7 @@ body{
     content:"";
     background: var(--icon-bg-cl) ;
     border-radius: 4px;
-    background-image: url(../images/clock.svg);
+    background-image: url(../images/icon.svg/clock.svg);
     background-position: center;
     background-repeat: no-repeat;
     display: block;
@@ -220,7 +220,7 @@ body{
     content:"";
     background: var(--icon-bg-cl) ;
     border-radius: 4px;
-    background-image: url(../images/diagram.svg);
+    background-image: url(../images/icon.svg/diagram.svg);
     background-position: center;
     background-repeat: no-repeat;
     display: block;
@@ -231,7 +231,7 @@ body{
     content:"";
     background: var(--icon-bg-cl) ;
     border-radius: 4px;
-    background-image: url(../images/astronaut.svg);
+    background-image: url(../images/icon.svg/astronaut.svg);
     background-position: center;
     background-repeat: no-repeat;
     display: block;
