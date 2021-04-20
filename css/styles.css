@@ -222,6 +222,9 @@ body{
     margin: 0;
     padding-bottom: 50px;
 }
+.section-team{
+    background-color: #F5F4FA;
+}
 .team-flex{
     display: flex;
     flex-wrap: wrap;
