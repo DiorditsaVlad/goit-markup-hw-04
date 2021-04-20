@@ -148,6 +148,8 @@ body{
 .btn:focus{
      color: var(--pr-wht-color); 
     background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+
 }
 .btn{
     border-radius: 4px;
@@ -338,8 +340,8 @@ body{
 }
 /* !ПОРТФОЛИO */
 .btn-work{
- display: flex;
- align-items: center;
+    display: flex;
+     align-items: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 2.63;
@@ -353,12 +355,14 @@ body{
 .all{
     background-color: var(--accent-color);
     color: var(--pr-wht-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .list-works{
     display: flex;
    justify-content: center;
    margin-bottom: 50px;
 }
+
 .list-works .item:not(:last-child){
     margin-right: 8px;
 }
@@ -390,12 +394,15 @@ body{
 .flex-container{
     display: flex;
     flex-wrap: wrap;
-
+    margin-right: -30px;
+    margin-bottom: -30px; 
 }
+
 .flex-element{
    flex-basis: calc((100% - 30px * 9) / 9);
     margin-right: 30px;
     margin-bottom: 30px; 
+    max-height: 404px;
 }
 .flex-element:nth-child(3n){
         margin: 0;
@@ -406,5 +413,10 @@ body{
 .card-image{
     border-bottom: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
-    border-right: 1px solid #EEEEEE; ;
+    border-right: 1px solid #EEEEEE; 
 }
+.flex-element:hover,
+.flex-element:focus{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
