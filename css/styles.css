@@ -337,19 +337,14 @@ body{
     width: 44px;
     padding: 12px 12px;
     border-radius: 50%;
+    fill: var(--icon-cl-pr);
 }
 .all-icon{
-    fill: var(--icon-cl-pr);
     height: 20px;
-   
 }
 .link-icon:hover,
 .link-icon:focus{
     background-color:var(--accent-color);
-    fill: var(--pr-wht-color);
-}
-.all-icon:hover,
-.all-icon:focus{
     fill: var(--pr-wht-color);
 }
 /* подвал */
