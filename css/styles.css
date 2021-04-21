@@ -6,6 +6,7 @@
     --secondary-bg-cl:#2F303A;
     --pr-bg-cl: #ffffff;
     --icon-bg-cl: #F5F4FA;
+    --icon-cl-pr: #AFB1B8;
 
     --primary-font: Roboto,sans-serif;
 }
@@ -290,9 +291,6 @@ body{
     margin: 0;
     padding-bottom: 50px;
 }
-.section-team{
-    background-color: var(--icon-bg-cl);
-}
 .team-flex{
     display: flex;
     flex-wrap: wrap;
@@ -304,6 +302,17 @@ body{
 .team-flex .item{
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.team-flex-icon{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 32px;
+    margin-bottom: 30px;
+
+}
+.team-flex .item-icon:not(:last-child){
+    margin-right: 10px;
 }
 .team-person{
     font-weight: 500;
@@ -320,7 +329,28 @@ body{
     color: var(--pr-text-color);
     margin: 0;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 16px;
+}
+.link-icon{
+    display: flex;
+    align-items:center;
+    width: 44px;
+    padding: 12px 12px;
+    border-radius: 50%;
+}
+.all-icon{
+    fill: var(--icon-cl-pr);
+    height: 20px;
+   
+}
+.link-icon:hover,
+.link-icon:focus{
+    background-color:var(--accent-color);
+    fill: var(--pr-wht-color);
+}
+.all-icon:hover,
+.all-icon:focus{
+    fill: var(--pr-wht-color);
 }
 /* подвал */
 .footer{
@@ -412,8 +442,7 @@ body{
 .flex-container{
     display: flex;
     flex-wrap: wrap;
-    margin-right: -30px;
-    margin-bottom: -30px; 
+   
 }
 
 .flex-element{
