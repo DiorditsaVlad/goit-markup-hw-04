@@ -35,6 +35,8 @@ body {
 }
 .flex-header {
   display: flex;
+}
+.header {
   border-bottom: 1px solid #ececec;
 }
 .header-main {
@@ -70,7 +72,6 @@ body {
 }
 .smartphone {
   /* padding: 0; */
-  height: 16px;
   margin-right: 10px;
 }
 .aut-nav:hover,
@@ -78,7 +79,6 @@ body {
   fill: var(--accent-color);
 }
 .envelope {
-  height: 12px;
   margin-right: 10px;
 }
 
@@ -350,9 +350,6 @@ body {
   border-radius: 50%;
   fill: var(--icon-cl-pr);
 }
-.all-icon {
-  height: 20px;
-}
 .link-icon:hover,
 .link-icon:focus {
   background-color: var(--accent-color);
@@ -393,9 +390,6 @@ body {
 .link-client-foster:focus {
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
-}
-.client {
-  height: 50px;
 }
 /* подвал */
 .footer {
@@ -464,9 +458,6 @@ body {
   border-radius: 50%;
   fill: var(--pr-wht-color);
   background: rgba(255, 255, 255, 0.1);
-}
-.footer-icon {
-  height: 20px;
 }
 .link-footer-icon:hover,
 .link-footer-icon:focus {
